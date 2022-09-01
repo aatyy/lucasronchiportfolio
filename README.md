@@ -61,18 +61,4 @@
 </html>
 
  
-h2{
-    font-size: 4.5rem;
-    margin-bottom: .72em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    color:#c70f0f;
-}
-hr{
-    width: 85%;
-    margin: 4em auto;
-    border: 1.5px solid rgba(216,91,83,.25);
-    box-shadow: 0px 1px 6px rgba (0, 0, 0, .16);
-}
-.texto-direita{
-    text-align: right;
-}
+
