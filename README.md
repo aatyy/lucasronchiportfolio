@@ -59,3 +59,68 @@
     </div>
 </body>
 </html>
+
+    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+}
+.centraliza-container{
+    margin:auto; 
+}
+div{
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba(0,0,0, .2);
+}
+
+header{
+    text-align: center;
+}
+header ul{
+    margin-top: 1.5em;
+}
+header li{
+    list-style-type: none;
+    display: inline-block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-right: 2em;
+}
+header li:last-child{margin-right: 0;}
+header a{
+    text-decoration: none; color: #c70f0f; padding: .8em;
+}
+main{
+    margin-top: 4em;
+}
+article{
+    width: 95%;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 160%;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 4.5rem;
+    margin-bottom: .72em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:#c70f0f;
+}
+hr{
+    width: 85%;
+    margin: 4em auto;
+    border: 1.5px solid rgba(216,91,83,.25);
+    box-shadow: 0px 1px 6px rgba (0, 0, 0, .16);
+}
+.texto-direita{
+    text-align: right;
+}
